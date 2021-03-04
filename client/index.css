@@ -1,4 +1,25 @@
 h1 {
-    font-size: larger;
-    color:crimson;
+    font-size: 100px;
+    color: #0466D6;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    
+}
+
+div {
+    width: 500px;
+    margin: auto;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    jusitfy-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    color: white;
 }

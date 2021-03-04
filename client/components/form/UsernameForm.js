@@ -6,13 +6,14 @@ const UsernameForm = (props) => {
   return ( <form onSubmit={props.handleSubmit}>
                 <label>
                   Name:
-                  <input type="text" onChange={props.handleChange} value = {props.userName} />
+                  <input type="text" onChange={props.handleChange}  />
                 </label>
                 <input type="submit" value="Submit" />
               </form>
             );
 }
 
+// value = {props.userName}
 export default UsernameForm;
 
 // class UsernameFormForm extends React.Component {
